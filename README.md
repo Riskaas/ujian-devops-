@@ -17,7 +17,8 @@ Cara memasang web dari repo https://github.com/BlankOn/blankon-linux-static-web 
 >>sudo cp -r /vagrant/blankon-linux-static-web/index.html /var/www/html' (copy file html di var/www/html)
 >>sudo service nginx restart (restart nginx)
 
-* >>vagrant up (menjalankan vagrant)
->>vagrant provision (menjalankan provision)
+*Lalu untuk menjalankan vagrant >>vagrant up
+
+*Dan untuk menjalankan provision >>vagrant provision
 
 *Buka browser dengan alamat 192.168.2.10 (alamat yang di set di vagrant)
